@@ -20,7 +20,7 @@ function setup() {
   
   database = firebase.database();
 
-  foodStock = database.ref('Food');
+  foodStock = database.ref('food');
   foodStock.on("value", readStock);
 
     
